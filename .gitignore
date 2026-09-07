@@ -1,14 +1,14 @@
 # Terraform
-**/.terraform/*
+.terraform/
 *.tfstate
 *.tfstate.*
 crash.log
+crash.*.log
 
-# Terraform lock file
-.terraform.lock.hcl
+# Terraform variable files
+*.tfvars
+*.tfvars.json
 
-# IDE
-.vscode/
-
-# OS
-.DS_Store
+# Sensitive files
+*.pem
+*.key
